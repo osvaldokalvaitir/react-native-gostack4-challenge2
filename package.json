@@ -4,17 +4,35 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "react-devtool": "react-devtools"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.2",
     "react": "16.6.3",
-    "react-native": "0.58.4"
+    "react-native": "0.58.4",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-status-bar-height": "^2.2.0",
+    "react-native-vector-icons": "^6.2.0",
+    "react-navigation": "^3.2.1",
+    "reactotron-react-native": "^2.1.5"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "24.1.0",
+    "babel-plugin-root-import": "^6.1.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
     "jest": "24.1.0",
     "metro-react-native-babel-preset": "0.51.1",
+    "react-devtools": "^3.6.0",
     "react-test-renderer": "16.6.3"
   },
   "jest": {
