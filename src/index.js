@@ -2,8 +2,8 @@ import React from 'react';
 import '~/config/ReactotronConfig';
 import '~/config/DevToolsConfig';
 
-import { View, Text } from 'react-native';
+import Routes from './routes';
 
-const App = () => <View><Text>Olá</Text></View>;
+const App = () => <Routes />;
 
 export default App;
