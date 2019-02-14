@@ -1,5 +1,7 @@
 # React Native - Desafio 2
 
+Aplicação GitIssues usando React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, prop-types, React Navigation, React Native Vector Icons, React DevTools e Reactotron.
+
 ## Desafio 2
 
 Crie uma aplicação do zero e configura as ferramentas: ESLint, Reactotron, Babel Root Import e EditorConfig. Nesse desafio você irá construir uma aplicação utilizando a API do Github para listar issues (questões) de um repositório. A interface da aplicação deve ser construída utilizando FlexBox e seguir conforme imagem abaixo:
@@ -22,5 +24,91 @@ O app permitirá ao usuário inserir o nome de um repositório existente que ser
 
 ### Exemplos URL
 
-Repositório: https://api.github.com/repos/react-community/react-navigation  
+Repositório: https://api.github.com/repos/react-community/react-navigation
 Issues: https://api.github.com/repos/react-community/react-navigation/issues
+
+## Índice
+
+- [Telas](#telas)
+
+  - [Home](#home)
+
+  - [Issues](#issues)
+
+- [Rotas](#rotas)
+
+- [Desenvolvimento](#desenvolvimento)
+
+  - [Configurações Iniciais](#configurações-iniciais)
+
+  - [Instalação do Projeto](#instalação-do-projeto)
+
+  - [Execução do Projeto](#execução-do-projeto)
+
+  - [Bibliotecas](#bibliotecas)
+
+  - [Outras Ferramentas](#outras-ferramentas)
+
+## Telas
+
+### Home
+
+![Home](/assets/home.png)
+Esta é a primeira tela, onde estão todos os repositórios do GitHub informados pelo usuário.
+
+### Issues
+
+![Issues](/assets/issues.png)
+Nesta tela estão todas as issues referentes ao repositório selecionado pelo usuário.
+
+## Rotas
+
+- Busca um repositório do GitHub
+
+- Busca todas as issues de um repositório do GitHub
+
+## Desenvolvimento
+
+### Configurações Iniciais
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga as Configurações Iniciais.
+
+### Instalação do Projeto
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Instalação de Projeto.
+
+### Execução do Projeto
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
+
+### Bibliotecas
+
+- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
+
+- [Babel Root Import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-plugin-root-import.md)
+
+- [babel-eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-eslint.md)
+
+- [eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
+
+- [ESLint plugin for React Native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react-native.md)
+
+- [eslint-import-resolver-babel-plugin-root-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-import-resolver-babel-plugin-root-import.md)
+
+- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
+
+- [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
+
+- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
+
+- [React Native Vector Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-vector-icons.md)
+
+- [react-devtools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-devtools.md)
+
+- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
+
+- [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
+
+### Outras Ferramentas
+
+- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)

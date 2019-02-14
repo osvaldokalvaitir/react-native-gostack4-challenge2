@@ -11,6 +11,7 @@ import IssueItem from './components/IssueItem';
 import Filter from './components/Filter';
 
 import styles from './styles';
+import { colors } from '~/styles';
 
 export default class Issues extends Component {
   static propTypes = {
@@ -91,7 +92,7 @@ export default class Issues extends Component {
     const { loading, error, activeFilter } = this.state;
     return (
       <View style={styles.container}>
-        <StatusBar barStyle="dark-content" />
+        <StatusBar barStyle="dark-content" backgroundColor={colors.white} />
         {!!error && <Text style={styles.error}>{error}</Text>}
         <Filter activeFilter={activeFilter} changeFilter={this.changeFilter} />
         {loading ? <ActivityIndicator size="large" style={styles.loading} /> : this.renderList()}

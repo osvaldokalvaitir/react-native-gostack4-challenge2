@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { 
-  View, StatusBar, TextInput, FlatList, ActivityIndicator, Text, AsyncStorage, TouchableOpacity, 
+import {
+  View, StatusBar, TextInput, FlatList, ActivityIndicator, Text, AsyncStorage, TouchableOpacity,
 } from 'react-native';
 
 import api from '~/services/api';
@@ -12,6 +12,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import RepositoryItem from './components/RepositoryItem';
 
 import styles from './styles';
+import { colors } from '~/styles';
 
 export default class Home extends Component {
   static navigationOptions = {
@@ -105,7 +106,7 @@ export default class Home extends Component {
     } = this.state;
     return (
       <View style={styles.container}>
-        <StatusBar barStyle="dark-content" />
+        <StatusBar barStyle="dark-content" backgroundColor={colors.white} />
         <View style={styles.form}>
           <View style={styles.inputContainer}>
             <TextInput
