@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
     borderRadius: metrics.baseRadius,
     flexDirection: 'row',
     marginBottom: metrics.baseMargin,
-    marginHorizontal: metrics.baseMargin,
     padding: metrics.basePadding,
   },
 

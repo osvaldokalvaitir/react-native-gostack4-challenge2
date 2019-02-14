@@ -53,14 +53,16 @@ export default class Home extends Component {
     return !repositories.length ? (
       <Text style={styles.empty}>Nenhum repositório adicionado</Text>
     ) : (
-      <FlatList
-        data={repositories}
-        keyExtractor={item => String(item.id)}
-        renderItem={this.renderListItem}
-        onRefresh={this.loadRepositories}
-        refreshing={refreshing}
-        style={styles.listContainer}
-      />
+      <View style={styles.listContainer}>
+        <FlatList
+          data={repositories}
+          keyExtractor={item => String(item.id)}
+          renderItem={this.renderListItem}
+          onRefresh={this.loadRepositories}
+          refreshing={refreshing}
+          // style={styles.listContainer} O style dentro no componente não está funcionando
+        />
+      </View>
     );
   };
 

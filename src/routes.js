@@ -16,6 +16,7 @@ const Routes = createAppContainer(
         headerTintColor: colors.darker,
         headerBackTitle: null,
       },
+      headerLayoutPreset: 'center',
     },
   ),
 );

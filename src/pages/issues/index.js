@@ -60,14 +60,16 @@ export default class Issues extends Component {
     return !issues.length ? (
       <Text style={styles.empty}>Nenhuma issue encontrada</Text>
     ) : (
-      <FlatList
-        data={issues}
-        keyExtractor={item => String(item.id)}
-        renderItem={this.renderListItem}
-        onRefresh={this.loadIssues}
-        refreshing={refreshing}
-        style={styles.listContainer}
-      />
+      <View style={styles.listContainer}>
+        <FlatList
+          data={issues}
+          keyExtractor={item => String(item.id)}
+          renderItem={this.renderListItem}
+          onRefresh={this.loadIssues}
+          refreshing={refreshing}
+          // style={styles.listContainer} O style dentro no componente não está funcionando
+        />
+      </View>
     );
   };
 
