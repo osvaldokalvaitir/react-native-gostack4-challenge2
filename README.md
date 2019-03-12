@@ -1,5 +1,15 @@
 # React Native - Desafio 2
 
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-desafio2/blob/master/LICENSE)
+![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-desafio2.svg)
+![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-desafio2.svg?color=red)
+![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-desafio2.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-desafio2.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-desafio2.svg)
+![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-desafio2.svg?color=blueviolet)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
 Aplicação GitIssues usando React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, prop-types, React Navigation, React Native Vector Icons, React DevTools e Reactotron.
 
 ## Desafio 2
