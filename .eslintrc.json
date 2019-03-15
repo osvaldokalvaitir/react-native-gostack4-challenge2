@@ -1,22 +1,30 @@
 {
   "parser": "babel-eslint",
   "env": {
-    "jest": true
+    "es6": true
   },
-  "plugins": ["react-native", "jsx-a11y", "import"],
   "extends": ["airbnb", "plugin:react-native/all"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "__DEV__": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-native"],
   "rules": {
     "react/jsx-filename-extension": [
       "error",
-      { "extensions": [".js", ".jsx"] }
+      {
+        "extensions": [".jsx", ".js"]
+      }
     ],
-    "global-require": "off",
-    "no-console": "off",
-    "import/prefer-default-export": "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
-  },
-  "globals": {
-    "__DEV__": true
+    "import/prefer-default-export": "off"
   },
   "settings": {
     "import/resolver": {
