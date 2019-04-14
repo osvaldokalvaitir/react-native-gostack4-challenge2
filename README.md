@@ -39,13 +39,11 @@ Issues: https://api.github.com/repos/react-community/react-navigation/issues
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Home](#home)
 
   - [Issues](#issues)
-
-- [Rotas](#rotas)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -55,11 +53,15 @@ Issues: https://api.github.com/repos/react-community/react-navigation/issues
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
 
-  - [Outras Ferramentas](#outras-ferramentas)
+  - [APIs](#apis)
 
-## Telas
+  - [Ferramentas](#ferramentas)
+
+## Capturas de Tela
 
 ### Home
 
@@ -70,12 +72,6 @@ Esta é a primeira tela, onde estão todos os repositórios do GitHub informados
 
 ![Issues](/assets/issues.png)
 Nesta tela estão todas as issues referentes ao repositório selecionado pelo usuário.
-
-## Rotas
-
-- Busca um repositório do GitHub
-
-- Busca todas as issues de um repositório do GitHub
 
 ## Desenvolvimento
 
@@ -90,6 +86,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
+
+## Utilizados no Projeto
 
 ### Bibliotecas
 
@@ -119,6 +117,17 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
 
-### Outras Ferramentas
+### APIs
+
+- **[GitHub](https://api.github.com)**
+
+  - **Rotas**
+
+    - Repositórios
+
+      - Busca dados de um repositório
+      - Busca todas as issues de um repositório
+      
+### Ferramentas
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
