@@ -51,7 +51,7 @@ Issues: https://api.github.com/repos/react-community/react-navigation/issues
 
   - [Instalação do Projeto](#instalação-do-projeto)
 
-  - [Execução do Projeto](#execução-do-projeto)
+  - [Execução do Projeto para Desenvolvimento](#execução-do-projeto-para-desenvolvimento)
 
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
@@ -83,9 +83,9 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
 
-### Execução do Projeto
+### Execução do Projeto para Desenvolvimento
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto`.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
 
 ## Utilizados no Projeto
 
