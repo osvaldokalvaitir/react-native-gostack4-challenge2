@@ -18,7 +18,7 @@ Crie uma aplicação do zero e configura as ferramentas: ESLint, Reactotron, Bab
 
 O app permitirá ao usuário inserir o nome de um repositório existente que será exibido na lista da primeira tela e clicando sobre os repositórios, poderá listar as issues pertencentes ao mesmo, além disso pode filtrar entre issues Abertas, fechadas ou todas. As duas páginas do app devem ser estilizadas como as seguintes imagens:
 
-![Telas](/assets/screens.png)
+![Telas](/.github/assets/screens.png)
 
 ### Regras
 
@@ -65,12 +65,12 @@ Issues: https://api.github.com/repos/react-community/react-navigation/issues
 
 ### Home
 
-![Home](/assets/home.png)
+![Home](/.github/assets/home.png)
 Esta é a primeira tela, onde estão todos os repositórios do GitHub informados pelo usuário.
 
 ### Issues
 
-![Issues](/assets/issues.png)
+![Issues](/.github/assets/issues.png)
 Nesta tela estão todas as issues referentes ao repositório selecionado pelo usuário.
 
 ## Desenvolvimento
@@ -127,7 +127,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
       - Busca dados de um repositório
       - Busca todas as issues de um repositório
-      
+
 ### Ferramentas
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
