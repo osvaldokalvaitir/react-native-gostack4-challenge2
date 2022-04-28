@@ -1,133 +1,68 @@
-# React Native - Desafio 2
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-desafio2/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-desafio2.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-desafio2.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-desafio2.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-desafio2.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-desafio2.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-desafio2.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - GoStack 4 Challenge 2
+</h3>
 
-Aplicação GitIssues usando React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, prop-types, React Navigation, React Native Vector Icons, React DevTools e Reactotron.
+<p align="center">
+  :octocat: GitIssues Application using React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, prop-types, React Navigation, React Native Vector Icons, React DevTools, Reactotron and consuming the features of the GitHub API
+</p>
 
-## Desafio 2
+<p align="center">
+  :muscle: Click <a href="/.github/docs/challenge.md">here</a> to see the challenge description
+</p>
 
-Crie uma aplicação do zero e configura as ferramentas: ESLint, Reactotron, Babel Root Import e EditorConfig. Nesse desafio você irá construir uma aplicação utilizando a API do Github para listar issues (questões) de um repositório. A interface da aplicação deve ser construída utilizando FlexBox e seguir conforme imagem abaixo:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-gostack4-challenge2.svg?color=00A83A">
 
-O app permitirá ao usuário inserir o nome de um repositório existente que será exibido na lista da primeira tela e clicando sobre os repositórios, poderá listar as issues pertencentes ao mesmo, além disso pode filtrar entre issues Abertas, fechadas ou todas. As duas páginas do app devem ser estilizadas como as seguintes imagens:
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-gostack4-challenge2.svg?color=00A83A">
 
-![Telas](/.github/assets/screens.png)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-### Regras
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- O input de adicionar repositório deve receber a informação da seguinte forma: organização/repositório (Exemplo: “rocketseat/comunidade”);
-- Ao clicar no botão “+” uma request será enviada à API do Github buscando informações do repositório e armazenando os campos ID, nome, organização e avatar no storage (AsyncStorage) do dispositivo;
-- A lista de repositórios adicionada deve ser mantida no AsyncStorage em forma de array e recuperada ao inicializar a aplicação exibindo os dados em tela;
-- O usuário deve poder atualizar a lista de repositórios arrastando a lista pra baixo com a opção refresh do `<FlatList />`;
-- Ao clicar em um repositório, o usuário deverá ser navegado para a tela de issues do repositório e só nesse momento carregar as issues da API (não armazene as issues no AsyncStorage). Você vai precisar enviar o repositório como parâmetro na navegação, veja: https://reactnavigation.org/docs/en/params.html;
-- Deve ser possível filtrar entre issues abertas, fechadas e todas (por padrão);
-- A linha do título da issue deve ocupar apenas a linha (https://facebook.github.io/react-native/docs/text#numberoflines), não quebrando e mostrando “...” (https://facebook.github.io/react-native/docs/text#ellipsizemode) no final do texto para indicar que possui mais conteúdo;
-- Ao clicar em uma issue, o usuário deve ser redirecionado para a URL da issue pelo navegador (https://facebook.github.io/react-native/docs/linking#openurl), não é preciso abrir a informação na tela do app;
-- As abas de status das issues não precisam utilizar React Navigation, você pode fazer apenas com botões `<TouchableOpacity>`;
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-### Exemplos URL
+## :iphone: Demo
 
-Repositório: https://api.github.com/repos/react-community/react-navigation
-Issues: https://api.github.com/repos/react-community/react-navigation/issues
+![Demo](/.github/assets/demo.gif)
 
-## Índice
+## :wrench: Install and run
 
-- [Capturas de Tela](#capturas-de-tela)
+Open terminal:
 
-  - [Home](#home)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-gostack4-challenge2
 
-  - [Issues](#issues)
+# Entry in folder
+cd react-native-gostack4-challenge2
 
-- [Desenvolvimento](#desenvolvimento)
+# Install deps with npm or yarn
+npm install | yarn
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :memo: License
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-  - [Bibliotecas](#bibliotecas)
+---
 
-  - [APIs](#apis)
-
-  - [Ferramentas](#ferramentas)
-
-## Capturas de Tela
-
-### Home
-
-![Home](/.github/assets/home.png)
-Esta é a primeira tela, onde estão todos os repositórios do GitHub informados pelo usuário.
-
-### Issues
-
-![Issues](/.github/assets/issues.png)
-Nesta tela estão todas as issues referentes ao repositório selecionado pelo usuário.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Babel Root Import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-plugin-root-import.md)
-
-- [babel-eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/babel-eslint.md)
-
-- [eslint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
-
-- [ESLint plugin for React Native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react-native.md)
-
-- [eslint-import-resolver-babel-plugin-root-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-import-resolver-babel-plugin-root-import.md)
-
-- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Native Vector Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-vector-icons.md)
-
-- [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
-
-- [react-devtools](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-devtools.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [reactotron-react-native](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-native.md)
-
-### APIs
-
-- **[GitHub API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/github-api.md)**
-
-  - **Rotas**
-
-    - Repositórios
-
-      - Busca dados de um repositório
-      - Busca todas as issues de um repositório
-
-### Ferramentas
-
-- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
